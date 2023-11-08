@@ -1,6 +1,52 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 1600px;
+    height: 100px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    transform: translate(-1%, -1%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+}
 article{
-    background: grey;
+    background: lightgrey;
 }
 body{
+width: 95%;
+    margin: auto;
+
+}
+header.class{
+background-color: white;
+}
+headerimage{
+    max-width: 95%;
+    max-height: 15%;
+    display: block;
+    margin: auto;
+}
+nav > a{
+    color: lawngreen;
     background: grey;
+}
+nav{
+    background-color: dimgrey;
+}
+article>header>h1{
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer{
+    line-height: 10px;
 }
