@@ -5,7 +5,7 @@
 
 .image-container img {
     display: block;
-    width: 1600px;
+    width: 1606px;
     height: 100px;
 }
 
@@ -24,7 +24,7 @@ article{
 }
 body{
 width: 95%;
-    margin: auto;
+    margin: 0 auto;
 
 }
 header.class{
@@ -34,7 +34,7 @@ headerimage{
     max-width: 95%;
     max-height: 15%;
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 nav > a{
     color: lawngreen;
@@ -46,7 +46,4 @@ nav{
 article>header>h1{
     font-size: 20px;
     text-decoration: underline;
-}
-footer{
-    line-height: 10px;
 }
