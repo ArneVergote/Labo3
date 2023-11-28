@@ -13,6 +13,12 @@ h2{
 }
 header{
     background-image: url("images/bgsky3.jpg");
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 section{
     float: right;
@@ -51,13 +57,13 @@ article{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.foto{
+.foto {
     background-color: #999999;
     margin-right: 20px;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px dashed white;
-    width: calc(33.33% - 20px); /* 3 foto's per rij, -20px om de margin-right te compenseren */
+    width: calc(33.33% - 20px);
     box-sizing: border-box;
 }
 article{
