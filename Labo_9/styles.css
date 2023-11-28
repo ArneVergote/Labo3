@@ -15,7 +15,11 @@ header{
     background-image: url("images/bgsky3.jpg");
 }
 section{
-
+    float: right;
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    padding: 10px;
 }
 footer{
     background-color: #666666;
@@ -36,12 +40,52 @@ article{
     margin-bottom: 20px;
     margin-right: 20px;
 }
-div{
+.bottom{
     display: inline-block;
-
-    width: 180px;
-    height: 180px;
-    margin: 20px;
-    border: 1px dashed #999999;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    padding-left: 120px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.foto{
+    background-color: #999999;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dashed white;
+    width: calc(33.33% - 20px); /* 3 foto's per rij, -20px om de margin-right te compenseren */
+    box-sizing: border-box;
+}
+article{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-right: 10px;
+}
+b{
+    margin: 20px 20px 20px 30px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+h3{
+    background-color: #0416ff;
+    color: white;
+    line-height: 2em;
+    padding-left: 120px;
+}
+.airbus-logo {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.copyright {
+    text-align: center;
+    background-color: white;
+    color: black;
     padding: 10px;
 }
