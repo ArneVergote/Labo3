@@ -15,7 +15,6 @@ header{
     background-image: url("images/bgsky3.jpg");
     height: 200px;
     background-size: cover;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -36,9 +35,11 @@ footer{
 .airplane {
     right: 90px;
     bottom: 60px;
+    position: absolute;
 }
 main {
-    display: flex;
+    width: 75%;
+    margin-left: 10px;
 }
 article{
     margin-top: 20px;
@@ -55,16 +56,17 @@ article{
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    margin-right: 20px;
+    background-color: #999999;
+    margin-left: -10px;
 }
 .foto {
-    background-color: #999999;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+    background-color: white;
     padding: 10px;
-    border: 1px dashed white;
-    width: calc(33.33% - 20px);
-    box-sizing: border-box;
+    border: 1px dashed grey;
+    margin: 20px 20px 20px 20px;
 }
 article{
     background-color: white;
@@ -84,7 +86,11 @@ h3{
     line-height: 2em;
     padding-left: 120px;
 }
+article>p>span{
+    color: blue;
+}
 .airbus-logo {
+    float: left;
     margin-right: 30px;
     margin-bottom: 20px;
 }
