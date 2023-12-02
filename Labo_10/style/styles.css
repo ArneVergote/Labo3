@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+}
+.painting-container {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(12, 1fr);
+}
+#a {
+    border: solid black;
+    border-width: 0 7.5px 15px 0px;
+    min-height: 165px;
+    background: rgb(255, 255, 255);
+    grid-column: span 3;
+    grid-row: 1;
+}
+#b {
+    border: solid black;
+    border-width: 15px 7.5px 7.5px 0;
+    min-height: 190px;
+    background: rgb(255, 255, 255);
+    grid-column: span 3;
+    grid-row: 2;
+}
+#c {
+    border: solid black;
+    border-width: 0 0 7.5px 7.5px;
+    min-height: 355px;
+    background: rgb(220, 40, 26);
+    grid-column: span 9;
+    grid-row: 1 / span 2;
+}
+#d {
+    border: solid black;
+    border-width: 7.5px 7.5px 0 0;
+    min-height: 150px;
+    background: rgb(0, 93, 159);
+    grid-column: span 3;
+    grid-row: 3 / span 2;
+}
+#e {
+    border: solid black;
+    border-width: 7.5px 7.5px 0 7.5px;
+    min-height: 150px;
+    background: rgb(255, 255, 255);
+    grid-column: span 8;
+    grid-row: 3 / span 2;
+}
+#f {
+    border: solid black;
+    border-width: 7.5px 0 12.5px 7.5px;
+    min-height: 75px;
+    background: rgb(255, 255, 255);
+    grid-column: span 1;
+    grid-row: 3;
+}
+#g{
+    border: solid black;
+    border-width: 12.5px 0 0 7.5px;
+    min-height: 75px;
+    background-color: rgb(242, 224, 122);
+    grid-column: span 1;
+    grid-row: 4;
+}
+
