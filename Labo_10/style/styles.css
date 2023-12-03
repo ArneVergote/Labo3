@@ -62,4 +62,8 @@ body {
     grid-column: span 1;
     grid-row: 4;
 }
-
+@media screen and (max-width: 768px) {
+    .painting-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
