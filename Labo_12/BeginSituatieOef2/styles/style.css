@@ -47,9 +47,12 @@ section > a{
     border-style: solid;
     border-color: grey;
 }
-nav > a{
+nav{
     display: flex;
     justify-content: space-evenly;
+}
+nav > a{
+
     color: #ddaa00;
     background-color: white;
     border-width: 2px;
