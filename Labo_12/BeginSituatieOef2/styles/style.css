@@ -65,7 +65,8 @@ img{
 @media (min-width: 701px) {
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 }
 
